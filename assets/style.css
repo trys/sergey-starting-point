@@ -1,0 +1,33 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3vw;
+  font: 125% /1.5 -apple-system, sans-serif;
+}
+
+a {
+  color: #0097e6;
+}
+
+[role='banner'] {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  margin: 0;
+}
+
+.menu li + li {
+  margin-left: 1rem;
+}
+
+[role='contentinfo'] {
+  border-top: 1px solid #aaa;
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
